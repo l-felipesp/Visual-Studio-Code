@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Pneus +</h1>
+<h3>Solicitar orçamento:</h3>
+<form method="get" action="teste.jsp">
+    Seu carro: <select name="Marca">
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Volkswagen">Volkswagen</option>
+        <option value="FIAT">FIAT</option>   
+    </select> <br>
+    Modelo: <input type="text" name="Modelo">   <br> 
+    Ano: <input type="number" min="1995" max="2024">
+    </select> 
+    <br><br>
+    Seu nome: <input type="text" name="Tipo"> 
+    <br>
+    E-mail: <input type="email" name="email">
+    <br><br>
+    Seleção de pneus:<br>
+    Largura: 
+    <input type="radio" name="Largura" value="195"> 195
+    <input type="radio" name="Largura" value="185"> 185
+    <input type="radio" name="Largura" value="175"> 175
+    <br>
+    Perfil: 
+    <input type="radio" name="Perfil" value="75"> 75
+    <input type="radio" name="Perfil" value="65"> 65
+    <input type="radio" name="Perfil" value="60"> 60
+    <input type="radio" name="Perfil" value="55"> 55
+    <br>
+    Aro:
+    <select name="Aro">
+        <option value="15">15</option>
+        <option value="14">14</option>
+        <option value="13">13</option> 
+    </select>
+    <br>
+    <br>
+    Caracteríticas:
+    <br>
+    <input type="checkbox" name="Proteção de borda" value="Sim"> Proteção de borda
+    <br>
+    <input type="checkbox" name="Run Flat" value="Sim"> Run Flat
+    <br><br>
+    Data da entrega: <input type="date" name="Dataentrega">
+    <br>
+    Endereço: <textarea name="Endereço" rows="3" cols="30"></textarea>
+    <br>
+    <br>
+    <input type="submit">
+
+
+
+
+</form>
+</body>
+</html>
